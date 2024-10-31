@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-SamreenSaif</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="icon" href="picture/avatar.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.21.0/dist/core.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav >
+                        
+                <ul class="sidebar" >
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#c2a347"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    
+                    <li><a id="home" href="#sec-one">Home</a></li>
+                    <li><a id="about" href="#sec-two">About</a></li>
+                    <li><a id="edu" href="#sec-three">Education</a></li>
+                    <li><a id="projects" href="#sec-four">Projects</a></li>
+                    <li><a id="connect" href="#sec-five">Connect Me</a></li>
+                </ul>
+               
+                <ul >
+                    <li>Samreen Saif</li>
+                    <li class="hideOnMobile"><a id="home" href="#sec-one">Home</a></li>
+                    <li class="hideOnMobile"><a id="about" href="#sec-two">About</a></li>
+                    <li class="hideOnMobile"><a id="edu" href="#sec-three">Education</a></li>
+                    <li class="hideOnMobile"><a id="projects" href="#sec-four">Projects</a></li>
+                    <li class="hideOnMobile"><a id="connect" href="#sec-five">Connect Me</a></li>
+                    <li class="menu-button"onclick="showSidebar()">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#171753">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+               
+        </nav>
+    </header>
+
+    <!-- section one -->
+     <main>
+        <section class="sec-one" id="sec-one">
+            <div id="container">
+                
+                <div class="typewriter-text">
+                    <span id="typewriter"></span>
+                </div>
+                <div id="avatar">
+                    
+                </div>
+            
+            </div>
+
+
+            <div class="buttons">
+                <button onclick="window.open('https://www.facebook.com/samreen.saif/','_blank')">
+                    <i class="fa-brands fa-facebook fa-2xl " style="color: #c2a347; "></i>
+                </button>
+
+                <button onclick="window.open('https://www.instagram.com', '_blank')">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #c2a347;"></i>
+                  </button>
+
+                <button onclick="window.open('https://www.github.com/samreensaif', '_blank')"><i class="fa-brands fa-github-square fa-2xl" style="color: #c2a347;"></i></button>
+
+                               
+                <button onclick="window.open('https://www.linkedin.com/in/samreen-saif-16141027a', '_blank')"><i  class="fa-brands fa-linkedin fa-2xl" style="color: #c2a347;"></i></button>
+
+                <button onclick="window.open('https://www.vercel.com/new/samreen-saifs-projects', '_blank')">
+                    <img src="/picture/vercel.png" 
+                         alt="Vercel Logo" 
+                         style="width: 35px; height: 35px; ">
+                </button>
+                  
+            </div>
+        </section>
+
+        <!-- section two -->
+
+        <section class="sec-two" id="sec-two">
+            <div class="about-title">
+                <h1 >About</h1>
+            </div>
+
+            <div class="about-para">
+                <p>
+                    "My speciality is turning concepts into scalable, interactive web applications. I combine
+                    technical mastery and artistic vision to create smooth and captivating user experiences,
+                    utilizing both front-end and back-end technology. I create dynamic, interactive, and
+                    user-friendly online applications. I focus on building understandable, efficient, and manageable
+                    code because I pay close attention to details and have a strong desire to create perfect user
+                    experiences.I make it a point to keep up with technology and market trends so that I may keep
+                    refining my skills and coming up with innovative solutions. My goal is to create
+                    high-performing, scalable apps that both meet and exceed client requirements."
+                </p>
+                <div class="about-skill">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/bs.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/cover.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/css.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/html.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/njs.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/ts.png" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="/picture/skill/tw.jpg" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div> 
+                </div>
+             </div>
+             <div class="buttons">
+                <button onclick="window.open('https://www.facebook.com/samreen.saif/','_blank')">
+                    <i class="fa-brands fa-facebook fa-2xl " style="color: #c2a347; "></i>
+                </button>
+
+                <button onclick="window.open('https://www.instagram.com', '_blank')">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #c2a347;"></i>
+                  </button>
+
+                <button onclick="window.open('https://www.github.com/samreensaif', '_blank')"><i class="fa-brands fa-github-square fa-2xl" style="color: #c2a347;"></i></button>
+
+                               
+                <button onclick="window.open('https://www.linkedin.com/in/samreen-saif-16141027a', '_blank')"><i  class="fa-brands fa-linkedin fa-2xl" style="color: #c2a347;"></i></button>
+
+                <button onclick="window.open('https://www.vercel.com/new/samreen-saifs-projects', '_blank')">
+                    <img src="/picture/vercel.png" 
+                         alt="Vercel Logo" 
+                         style="width: 35px; height: 35px; ">
+                </button>
+                  
+            </div>
+
+        </section>
+
+
+        <!-- section three -->
+
+        <section class="sec-three" id="sec-three">
+            <div class="edu-title">
+                <h1 >Education</h1>
+            </div>
+
+            <div class="edu-list">
+
+                <ul>
+                    <li>Currently Enrolled in GIAIC</li>
+                    <li>BS-Computer Engineering - SSUET</li>
+                    <li>Intermediate - DHA Degree College For Girls</li>
+                    <li>Matriculation - Happy Home School</li>
+                </ul>
+            </div>
+        
+            <div class="buttons">
+                <button onclick="window.open('https://www.facebook.com/samreen.saif/','_blank')">
+                    <i class="fa-brands fa-facebook fa-2xl " style="color: #c2a347; "></i>
+                </button>
+
+                <button onclick="window.open('https://www.instagram.com', '_blank')">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #c2a347;"></i>
+                  </button>
+
+                <button onclick="window.open('https://www.github.com/samreensaif', '_blank')"><i class="fa-brands fa-github-square fa-2xl" style="color: #c2a347;"></i></button>
+
+                               
+                <button onclick="window.open('https://www.linkedin.com/in/samreen-saif-16141027a', '_blank')"><i  class="fa-brands fa-linkedin fa-2xl" style="color: #c2a347;"></i></button>
+
+                <button onclick="window.open('https://www.vercel.com/new/samreen-saifs-projects', '_blank')">
+                    <img src="/picture/vercel.png" 
+                         alt="Vercel Logo" 
+                         style="width: 35px; height: 35px; ">
+                </button>
+        
+        </section>
+
+        <!-- section four -->
+         <section class="sec-four" id="sec-four">
+
+             <div class="pro-title">
+                 <h1 >Projects</h1>
+             </div>
+
+             <div  class="htmlProjects">
+
+                        <div class="htmlProjectTitle">
+                            <h2>HTML/CSS-Projects</h2>
+                        </div>
+
+                        <div class="projectCards">
+                            <div class="card">
+                                <img src="/picture/imageCal.jpg" class="card-img-top1" alt="Calculator">
+                                <div class="card-body">
+                                    <h5 class="card-title">Calculator</h5>
+                                    <p class="card-text">Calculator on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="/picture/colorToggle.jpg" class="card-img-top1" alt="ColorToggle">
+                                <div class="card-body">
+                                    <h5 class="card-title">Color-Toggle</h5>
+                                    <p class="card-text">Color-Toggle on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="/picture/GGhtml.jpg" class="card-img-top1" alt="NumberGuessingGame">
+                                <div class="card-body">
+                                    <h5 class="card-title">Number-Guessing-Game</h5>
+                                    <p class="card-text">Number-Guessing-Game on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="/picture/rps.jpg" class="card-img-top1" alt="Rock-Paper-Scissor">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rock-Paper-Scissor</h5>
+                                    <p class="card-text">Rock-Paper-Scissor on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <img src="/picture/pp.jpg" class="card-img-top1" alt="Periodic-Table">
+                                <div class="card-body">
+                                    <h5 class="card-title">Periodic-Table</h5>
+                                    <p class="card-text">Periodic-Table on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+                                <img src="/picture/srf.jpg" class="card-img-top1" alt="Student-Registration Form">
+                                <div class="card-body">
+                                    <h5 class="card-title">Student-Registration Form</h5>
+                                    <p class="card-text">Student-Registration Form on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+            
+            
+            
+                            <div class="card">
+                                <img src="/picture/td.jpg" class="card-img-top1" alt="Todo List">
+                                <div class="card-body">
+                                    <h5 class="card-title">Todo-List</h5>
+                                    <p class="card-text">Todo-List on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="/picture/tt.jpg" class="card-img-top1" alt="Time-Table">
+                                <div class="card-body">
+                                    <h5 class="card-title">Time-Table</h5>
+                                    <p class="card-text">Time-Table on HTML, CSS and TypeScript</p>
+                                    
+                                </div>
+                            </div>
+            
+                        </div>
+    
+             </div>
+
+
+             <div class="hackathon">
+                <div class="hackathonTitle">
+                    <h2>Hackathon-Static And Dynamic Resume Builder(MileStones)</h2>
+                </div>
+
+
+                <div id="hp-box" >
+                    <div class="card" style="height:25rem">
+                        <img src="/picture/imageCV.png" id="cv" class="card-img-top1" style="border:2px solid red" alt="Time-Table">
+                        <div class="card-body" >
+                            <h5 class="card-title">Static-Resume</h5>
+                            <p class="card-text">Resume on HTML, CSS and TypeScript</p>
+                            <a href="https://sam-s-static-resume.vercel.app" class="card-btn" target="_blank">Link to Project</a>
+                        </div>
+                    </div>
+                    <div class="card" style="height:25rem">
+                        <img src="/picture/imageRB.png" class="card-img-top1" alt="Time-Table">
+                        <div class="card-body">
+                            <h5 class="card-title">Dynamic Resume Builder</h5>
+                            <p class="card-text">Resume-Builder on HTML, CSS and TypeScript</p>
+                            <a href="https://sams-resume-builder.vercel.app" class="card-btn" target="_blank">Link to Project</a>
+                        </div>
+                    </div> 
+                </div>
+             
+             </div>
+
+         </section>
+
+         <!-- section five -->
+
+         <section class="sec-five" id="sec-five">
+
+            <div id="form-div">
+                <div class="contact-title" >
+                    <h1 >Connect Me</h1>
+                    <p>Let's turn your vision into reality—shoot me a message!</p>
+                </div>
+                
+                    <div>
+                        <form action="http://www.example.com/login.php" target="_blank" method="post" id="contact-form">
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" name="fname" autocomplete="off" placeholder="Enter your first name" required>
+                    
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" name="lname" autocomplete="off" placeholder="Enter your last name" required>
+                    
+                            <label>Gender:</label>
+                            <div class="gender-options">
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label for="male">Male</label>
+
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Other</label>
+                            </div>
+
+                    
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" autocomplete="off" placeholder="Enter your email address" required>
+                    
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+                    
+                            <button type="submit">Submit</button>
+                        </form>
+                </div>
+                
+                
+            </div>
+
+                
+            </div>
+
+            <div class="buttons">
+                <button onclick="window.open('https://www.facebook.com/samreen.saif/','_blank')">
+                    <i class="fa-brands fa-facebook fa-2xl " style="color: #c2a347; "></i>
+                </button>
+
+                <button onclick="window.open('https://www.instagram.com', '_blank')">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #c2a347;"></i>
+                  </button>
+
+                <button onclick="window.open('https://www.github.com/samreensaif', '_blank')"><i class="fa-brands fa-github-square fa-2xl" style="color: #c2a347;"></i></button>
+
+                               
+                <button onclick="window.open('https://www.linkedin.com/in/samreen-saif-16141027a', '_blank')"><i  class="fa-brands fa-linkedin fa-2xl" style="color: #c2a347;"></i></button>
+
+                <button onclick="window.open('https://www.vercel.com/new/samreen-saifs-projects', '_blank')">
+                    <img src="/picture/vercel.png" 
+                         alt="Vercel Logo" 
+                         style="width: 35px; height: 35px; ">
+                </button>
+        
+         </section>
+
+
+     </main>
+
+     <footer class="footer">
+        <div class="container">
+            <p>Developed and Designed by <a href="https://www.github.com/samreensaif"
+                    target="_blank" class="link">Samreen Saif</a></p>
+            <p>&copy; All Rights Reserved by Samreen Saif</p>
+        </div>
+    </footer>
+     <script>
+        var app = document.getElementById('typewriter');
+      
+        var typewriter = new Typewriter(app, {
+          loop: true,      // Set true if you want it to repeat.
+          delay: 75,       // Speed of typing in milliseconds.
+        });
+      
+        typewriter
+          .typeString('I am Samreen Saif ,')
+          .pauseFor(2500)
+          .deleteAll()
+          .typeString('A Skilled Web Developer .')
+          .pauseFor(2500)
+          .deleteAll()
+          .typeString('A Passionate Programmer .')
+          .pauseFor(2500)
+          .start();
+      </script>
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>
+    function showSidebar(){
+     const sidebar =   document.querySelector(".sidebar");
+     sidebar.style.display = "flex";
+    }
+
+    function hideSidebar(){
+        const sidebar =   document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+    }
+  </script>
+</body>
+</html>

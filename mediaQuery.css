@@ -1,0 +1,257 @@
+/* mediaQuery.css */
+/* General styles for smaller screens */
+@media (max-width: 768px) {
+    /* Body */
+    body, main {
+        overflow-x: hidden;
+    }
+
+    .hideOnMobile{
+        display:none;
+    }
+
+    .menu-button{
+        display:block;
+    }
+   
+
+    
+
+    /* Section One */
+    .sec-one {
+        flex-direction: column;
+        text-align: center;
+    }
+    #container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #typewriter{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0px;
+    }
+    #avatar {
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    /* Social Media Buttons */
+    .buttons {
+        top: 320px;
+        right: 20px;
+        gap:20px;
+    }
+
+    
+
+    i.fa-brands, .buttons button img{
+        height: 20px;
+        width: 20px;
+    }
+
+    /* Section Two */
+    .sec-two {
+        margin-top: 120px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sec-two .buttons, .sec-three .buttons{
+        display:none;
+    }
+
+    .about-title h1, .edu-title h1, .pro-title h1, .contact-title h1 {
+        font-size: 4rem;
+    }
+
+    .about-para {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-skill{
+        height:250px;
+        width:250px;
+    }
+
+
+    .about-para p {
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    /* Section Three */
+    .sec-three {
+        margin-top:200px;
+        padding: 20px;
+    }
+
+    .edu-list {
+        margin-right: 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .edu-list ul {
+        padding: 0;
+        line-height: 1.8;
+    }
+
+    .sec-three {
+        position: relative; /* Ensure parent is positioned correctly */
+    }
+
+    .sec-three::before {
+        display:none;
+        
+    }
+
+    .sec-three .edu-list ul li::before {
+        display:none;
+    }
+
+    /* Section Four */
+    .sec-four {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projectCards,#hp-box {
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+        height: auto;
+        gap:15px;
+    }
+
+    .htmlProjectTitle h2, .hackathonTitle h2 {
+        font-size: 1.8rem;
+    }
+
+    .hackathon{
+        margin-top: 2200px;
+    }
+    #hp-box{
+        margin-top: 100px;
+    }
+    .card {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    /* Section Five */
+    .sec-five {
+        margin-top: 500px;
+        text-align: center;
+    }
+
+    .contact-title p {
+        font-size: 1rem;
+    }
+
+    #form-div, form {
+        width: 90%;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 14px;
+    }
+    .gender-options {
+        display: flex;
+        
+        gap: 10px; /* Adjust the spacing as needed */
+        align-items: center;
+    }
+
+    #contact-form button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .sec-five .buttons{
+        display: flex;
+        gap:25px;
+        position: absolute;
+        top: 600px;
+        right:400px;
+        flex-direction: row;
+       
+        
+    }
+}
+
+/* Even smaller screens (extra small devices, max width 480px) */
+@media (max-width: 480px) {
+    /* Navbar */
+    .sidebar{
+        width:100%;
+    }
+    /* Section One */
+    #typewriter {
+        font-size: 1.5rem;
+    }
+
+    #avatar {
+        width: 150px;
+        height: 200px;
+    }
+
+    /* Section Two Titles */
+    .about-title h1, .edu-title h1, .pro-title h1, .contact-title h1 {
+        font-size: 3rem;
+    }
+
+    .about-para p {
+        font-size: 0.9rem;
+    }
+
+    /* Section Three */
+    .edu-list {
+        font-size: 1.2rem;
+    }
+
+    .sec-three::before {
+        top: 150px;
+        height: 150px;
+    }
+
+    /* Cards */
+    .card {
+        padding: 5px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    /* Contact form */
+    label {
+        font-size: 16px;
+    }
+
+    #contact-form button {
+        font-size: 13px;
+    }
+}
