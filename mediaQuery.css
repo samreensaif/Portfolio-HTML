@@ -193,7 +193,7 @@
         gap:25px;
         position: absolute;
         top: 600px;
-        right:400px;
+        right:100px;
         flex-direction: row;
        
         
@@ -201,7 +201,7 @@
 }
 
 /* Even smaller screens (extra small devices, max width 480px) */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     /* Navbar */
     .sidebar{
         width:100%;
