@@ -134,10 +134,10 @@
     }
 
     .hackathon{
-        margin-top: 2200px;
+        margin-top: 2000px;
     }
     #hp-box{
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .card {
         width: 90%;
@@ -189,8 +189,8 @@
         display: flex;
         gap:20px;
         position: absolute;
-        top: 650px;
-        left:40px;
+        top: 700px;
+        left:60px;
         flex-direction: row;
               
     }
@@ -240,6 +240,12 @@
     .sec-three {
         margin-top:100px;
         padding: 20px;
+    }
+    .hackathon{
+        margin-top: 2000px;
+    }
+    #hp-box{
+        margin-top: 50px;
     }
 
     /* Section One */
@@ -314,6 +320,15 @@
     }
     .sec-five{
         margin-top:550px;
+    }
+    .sec-five .buttons{
+        display: flex;
+        gap:20px;
+        position: absolute;
+        top: 700px;
+        left:60px;
+        flex-direction: row;
+              
     }
     
     
