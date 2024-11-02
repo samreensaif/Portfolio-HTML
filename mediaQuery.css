@@ -15,9 +15,7 @@
     }
    
 
-    nav li:first-child{
-        margin-left: 80px;
-    }
+    
 
     /* Section One */
     .sec-one {
@@ -43,9 +41,7 @@
 
     /* Social Media Buttons */
     .buttons {
-        top: 320px;
-        right: 20px;
-        gap:20px;
+        display:none;
     }
 
     
@@ -57,7 +53,7 @@
 
     /* Section Two */
     .sec-two {
-        margin-top: 80px;
+        margin-top: 0px;
         padding: 20px;
         text-align: center;
     }
@@ -89,7 +85,7 @@
 
     /* Section Three */
     .sec-three {
-        margin-top:80px;
+        margin-top:100px;
         padding: 20px;
     }
 
@@ -127,8 +123,8 @@
 
     .projectCards,#hp-box {
         flex-direction: column;
-        width: 50%;
-        margin-left: 25%;
+        width: 85%;
+        margin-left: 10%;
         height: auto;
         gap:15px;
     }
@@ -178,6 +174,7 @@
     }
     .gender-options {
         display: flex;
+        flex-direction: column;
         
         gap: 10px; /* Adjust the spacing as needed */
         align-items: center;
@@ -190,13 +187,46 @@
 
     .sec-five .buttons{
         display: flex;
-        gap:25px;
+        gap:20px;
         position: absolute;
-        top: 600px;
-        right:100px;
+        top: 650px;
+        left:40px;
         flex-direction: row;
-       
-        
+              
+    }
+    nav li:first-child{
+        padding:10px;
+        font-size: 2.5rem;
+            font-family: "Grey Qo", cursive;
+            font-weight: 800;
+            font-style:normal;
+           margin-right: 200px;
+        color:#171753
+    }
+    .footer {
+        background: #c2a347;
+        color: #171753;        
+        width: 100%;
+        text-align: center;
+        height: 75px;
+    }
+    
+    
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer a {
+        color: #171753;
+        text-decoration: underline;
+    }
+    
+    .footer p {
+        margin: 5px 0;
+        font-size: 16px;
+        padding:0px 1px;
     }
 }
 
@@ -206,12 +236,28 @@
     .sidebar{
         width:100%;
     }
+    
+    .sec-three {
+        margin-top:100px;
+        padding: 20px;
+    }
+
     /* Section One */
     #typewriter {
         font-size: 1.5rem;
     }
     nav li:first-child{
-       margin-left: 80px;
+        padding:10px;
+        font-size: 2.5rem;
+            font-family: "Grey Qo", cursive;
+            font-weight: 800;
+            font-style:normal;
+           margin-right:50px;
+        color:#171753
+    }
+    .sec-five .buttons{
+        right:300px;   
+        
     }
 
     #avatar {
@@ -258,5 +304,33 @@
 
     #contact-form button {
         font-size: 13px;
+    }
+    .footer {
+        background: #c2a347;
+        color: #171753;        
+        width: 100%;
+        text-align: center;
+        height: 75px;
+    }
+    .sec-five{
+        margin-top:550px;
+    }
+    
+    
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer a {
+        color: #171753;
+        text-decoration: underline;
+    }
+    
+    .footer p {
+        margin: 5px 0;
+        font-size: 16px;
+        padding:0px 1px;
     }
 }
