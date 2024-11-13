@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -15,7 +15,7 @@ body, main {
 body{
     height: 100vh;
     width: 100%;
-    background-color: #171753;
+    background-color: #fed9b7;
     overflow-x:hidden;
     
 }
@@ -24,8 +24,10 @@ nav{
     
     height:70px;
     width:100%;
-    background-color: #BAA770;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    background-color: #fed9b7;background-blend-mode:color-burn;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px)
        
 }
 
@@ -50,8 +52,8 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color:#171753;
-    font-size: 1.2rem;
+    color:#0081a7;
+    font-size: 1.5rem;
     transition: all 0.7s ease-in; 
 }
 
@@ -61,11 +63,11 @@ nav a:hover{
    
         
         text-decoration: underline;
-        text-decoration-color: #c2a347;
+        text-decoration-color: #0081a7;
         text-decoration-thickness: 3px;
         text-underline-offset: 5px;
         text-decoration-skip-ink: none;
-        color:#171753;
+        
     
 }
 nav li:first-child{
@@ -75,7 +77,7 @@ nav li:first-child{
         font-weight: 800;
         font-style:normal;
        margin-right: 400px;
-    color:#171753
+    color:#0081a7
 }
 
 
@@ -91,7 +93,7 @@ nav li:first-child{
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 999;
-    background-color: #171753;
+    background-color: #0081a7;
     backdrop-filter: blur(70px);
     box-shadow: -10px 0px 10px rgba(0,0,0,0.5);
 }
@@ -102,7 +104,7 @@ nav li:first-child{
 }
 .sidebar a{
     width:100%;
-    color:#c2a347;
+    color:#0081a7;
 }
 
 .menu-button{
@@ -114,7 +116,7 @@ nav li:first-child{
     
     height:100vh;
     width:100%;
-    background-color: #171753;
+    background-color: #fed9b7;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +140,7 @@ nav li:first-child{
     font-family: "Gowun Batang", serif;
     font-weight: 700;
     font-style: normal;
-    color:#BAA770;
+    color:#0081a7;
     margin-left:100px;
     
     }
@@ -159,7 +161,7 @@ nav li:first-child{
     
     /* Avatar hover effect */
     #avatar:hover {
-        box-shadow: 0 0 25px 10px #BAA770;
+        box-shadow: 0 0 25px 10px #0081a7;
     }
 
     /* Animation for floating avatar */
@@ -214,7 +216,7 @@ i.fa-brands:hover, .buttons  button img:hover{
    position:relative;
     height:100vh;
     width:100%;
-    background-color: #171753;
+    background-color: #fed9b7;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -222,7 +224,7 @@ i.fa-brands:hover, .buttons  button img:hover{
 }
 
 .about-title h1, .edu-title h1, .pro-title h1, .contact-title h1{
-    color:#BAA770;    
+    color:#0081a7;    
     font-size: 7rem;
     font-family: "Grey Qo", cursive;
     font-weight: 800;
@@ -241,13 +243,13 @@ i.fa-brands:hover, .buttons  button img:hover{
 
 .about-para p{
     height:450px;
-    width:400px;
-    font-size: 20px;
+    width:500px;
+    font-size: 22px;
     line-height: 1.5;
     
-    text-align: justify;
-    color:white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(16, 16, 226), 0 0 5px darkblue;
+    text-align: left;
+    color:#00afb9;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(16, 16, 226), 0 0 5px darkblue; */
     
 }
 
@@ -281,7 +283,7 @@ i.fa-brands:hover, .buttons  button img:hover{
     position:relative;
     height:100vh;
     width:100%;
-    background-color: #171753;
+    background-color: #fed9b7;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +291,7 @@ i.fa-brands:hover, .buttons  button img:hover{
   }
 
   .edu-list{
-    color:white;
+    color:#00afb9;
     font-size: 2rem;
     margin-right: 500px;
     margin-top: 100px;
@@ -308,8 +310,8 @@ i.fa-brands:hover, .buttons  button img:hover{
     left: 40px; 
     width: 10px; 
     height: 290px;
-    background-color: white; 
-    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: #00afb9; 
+    box-shadow: 1px 1px 2px black, 0 0 25px #0081a7, 0 0 5px #0081a7;
     z-index: 1; 
     border-radius: 10px;
 }
@@ -326,8 +328,8 @@ i.fa-brands:hover, .buttons  button img:hover{
     left:-80px;
     width:75px;
     height:5px;
-    background-color: white;
-    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: #00afb9;
+    box-shadow: 1px 1px 2px black, 0 0 25px #0081a7, 0 0 5px #0081a7;
     gap:20px;
     border-radius:10px;
     
@@ -339,7 +341,7 @@ i.fa-brands:hover, .buttons  button img:hover{
     position:relative;
     height:1600px;
     width:100%;
-    background-color: #171753;
+    background-color: #fed9b7;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -354,9 +356,10 @@ i.fa-brands:hover, .buttons  button img:hover{
     
   }
   .htmlProjectTitle h2{
-            color:rgb(3, 241, 181) ;
+            
             font-size: 40px;
-            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;            
+            color: #00afb9;
+            text-shadow: 1px 1px 2px black, 0 0 25px #0081a7, 0 0 5px #0081a7;
             text-align:center;
             margin-top:50px;
        
@@ -387,7 +390,7 @@ i.fa-brands:hover, .buttons  button img:hover{
     align-items: center;
     flex-direction: column;
     
-    border:3px solid #BAA770;
+    border:3px solid #0081a7;
     border-radius: 10px;
     background-color: white;
     
@@ -396,7 +399,7 @@ i.fa-brands:hover, .buttons  button img:hover{
     
     .card img:hover{
         transform: scale(1.1);
-        box-shadow: 0 0 25px 10px rgba(255, 255, 0, 0.8);
+        box-shadow: 0 0 25px 10px #0081a7;
         
     
     }
@@ -419,7 +422,7 @@ i.fa-brands:hover, .buttons  button img:hover{
     
     
     .card-body p{
-        color:blue;
+        color:#00afb9;
         font-size: 17px;
         text-align: center;
     
@@ -457,9 +460,10 @@ i.fa-brands:hover, .buttons  button img:hover{
 
     
     .hackathonTitle h2{
-        color:rgb(3, 241, 181) ;
+        
         font-size: 40px;
-        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;            
+        color: #00afb9;
+        text-shadow: 1px 1px 2px black, 0 0 25px #0081a7, 0 0 5px #0081a7;
         text-align:center;
         margin-top:50px;
         
@@ -474,26 +478,28 @@ i.fa-brands:hover, .buttons  button img:hover{
     }
     
   .card-btn {
-    background-color: #BAA770;
+    background-color: #fed9b7;
     border: none;
-    color: white;
+    color: #0081a7;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    transition: all 0.3s ease;
   }
   
   .card-btn:hover {
-    background-color: #c2a347;
+    background-color: #0081a7;
+    color:#fed9b7;
   }
 
  /* section-five */
 .sec-five {
-    background-color: #171753;
+    background-color: #fed9b7;
     position: relative;
     height: auto;
     width: 100%;
@@ -508,15 +514,16 @@ i.fa-brands:hover, .buttons  button img:hover{
     
     padding: 20px;
     text-align: center;
+    
 }
 
 .contact-title p {
-    max-width: 500px;
+    
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(16, 16, 226), 0 0 5px darkblue;
+    color: #00afb9;
+    
     height: auto; /* Set to auto to avoid height issues */
 }
 
@@ -541,7 +548,7 @@ label {
     display: block;
     margin-bottom: 8px;
     font-size:20px;
-    color: #c2a347;
+    color: #0081a7;
 }
 
 input[type="text"], input[type="email"], textarea {
@@ -575,25 +582,27 @@ textarea {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #c2a347;
-    color: #171753  ;
+    background-color: #0081a7;
+    color: #fed9b7  ;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 #contact-form button:hover {
-    background-color: #a48b3c;
+    background-color: #fed9b7;
+    color:#0081a7;
+    border:2px solid #0081a7;
     scale:0.98;
     
 }
 
   /* Footer Styling */
   .footer {
-    background: #c2a347;
-    
-    color: #171753;
-    
+    background-color: #fed9b7;
+    background-blend-mode:color-burn;
+    box-shadow: 24px 24px 24px 1px rgba(0, 0, 0, 0.28);
+    color: #0081a7;
     width: 100%;
     text-align: center;
     height: 70px;
@@ -607,7 +616,7 @@ textarea {
 }
 
 .footer a {
-    color: #171753;
+    color: #0081a7;
     text-decoration: underline;
 }
 
